@@ -1,0 +1,115 @@
+[
+    {"done": "Fehlerhaft - Erledigt",
+    "date": "29.01.2018",
+    "time": "11:54:12",
+    "id": "Z8019650Z00",
+    "process": "Service 01",
+    "message": "AudioMedienobjekt konnte wegen Constraint-Verletzung nicht gespeichert werden: LB_STRM.XX_ABO_ANR",
+    "stacktrace": 
+    [
+        "Exception in thread \"main\" java.lang.NullPointerException\n",
+        "at com.example.myproject.Book.getTitle(Book.java:16)\n",
+        "at com.example.myproject.Author.getBookTitles(Author.java:25)\n",
+        "at com.example.myproject.Bootstrap.main(Bootstrap.java:14)"
+    ],
+    "solution": true
+    },
+    
+    {"done": "Fehlerhaft - Zu erledigen",
+    "date": "25.01.2018",
+    "time": "15:53:28",
+    "id": "W0445281101",
+    "process": "Service 02",
+    "message": "referenzierte AK besitzt schon eine Produktion",
+    "stacktrace": 
+    [
+        "Exception in thread \"main\" java.lang.NullPointerException\n",
+        "at com.example.myproject.Book.getTitle(Book.java:16)\n",
+        "at com.example.myproject.Author.getBookTitles(Author.java:25)\n",
+        "at com.example.myproject.Bootstrap.main(Bootstrap.java:14)"
+    ],
+    "solution": false
+    },
+
+    {"done": "Erfolgreich",
+    "date": "15.02.2018",
+    "time": "13:14:56:345",
+    "id": "01010580551012222192500019",
+    "process": "Service 04",
+    "message": "",
+    "stacktrace": "",
+    "solution": false
+    },
+    {"done": "Fehlerhaft - Erledigt",
+    "date": "29.01.2018",
+    "time": "11:54:12",
+    "id": "Z8019650Z00",
+    "process": "Service 01",
+    "message": "AudioMedienobjekt konnte wegen Constraint-Verletzung nicht gespeichert werden: LB_STRM.XX_ABO_ANR",
+    "stacktrace": 
+    [
+        "Exception in thread \"main\" java.lang.NullPointerException\n",
+        "at com.example.myproject.Book.getTitle(Book.java:16)\n",
+        "at com.example.myproject.Author.getBookTitles(Author.java:25)\n",
+        "at com.example.myproject.Bootstrap.main(Bootstrap.java:14)"
+    ],
+    "solution": true
+    },
+
+    {"done": "Fehlerhaft - Erledigt",
+    "date": "29.01.2018",
+    "time": "11:54:12",
+    "id": "Z8019650Z00",
+    "process": "Service 01",
+    "message": "AudioMedienobjekt konnte wegen Constraint-Verletzung nicht gespeichert werden: LB_STRM.XX_ABO_ANR",
+    "stacktrace": 
+    [
+        "Exception in thread \"main\" java.lang.NullPointerException\n",
+        "at com.example.myproject.Book.getTitle(Book.java:16)\n",
+        "at com.example.myproject.Author.getBookTitles(Author.java:25)\n",
+        "at com.example.myproject.Bootstrap.main(Bootstrap.java:14)"
+    ],
+    "solution": true
+    },
+    
+    {"done": "Fehlerhaft - Zu erledigen",
+    "date": "25.01.2018",
+    "time": "15:53:28",
+    "id": "W0445281101",
+    "process": "Service 02",
+    "message": "referenzierte AK besitzt schon eine Produktion",
+    "stacktrace": 
+    [
+        "Exception in thread \"main\" java.lang.NullPointerException\n",
+        "at com.example.myproject.Book.getTitle(Book.java:16)\n",
+        "at com.example.myproject.Author.getBookTitles(Author.java:25)\n",
+        "at com.example.myproject.Bootstrap.main(Bootstrap.java:14)"
+    ],
+    "solution": false
+    },
+
+    {"done": "Erfolgreich",
+    "date": "15.02.2018",
+    "time": "13:14:56:345",
+    "id": "01010580551012222192500019",
+    "process": "Service 04",
+    "message": "",
+    "stacktrace": "",
+    "solution": false
+    },
+    {"done": "Fehlerhaft - Erledigt",
+    "date": "29.01.2018",
+    "time": "11:54:12",
+    "id": "Z8019650Z00",
+    "process": "Service 04",
+    "message": "AudioMedienobjekt konnte wegen Constraint-Verletzung nicht gespeichert werden: LB_STRM.XX_ABO_ANR",
+    "stacktrace": 
+    [
+        "Exception in thread \"main\" java.lang.NullPointerException\n",
+        "at com.example.myproject.Book.getTitle(Book.java:16)\n",
+        "at com.example.myproject.Author.getBookTitles(Author.java:25)\n",
+        "at com.example.myproject.Bootstrap.main(Bootstrap.java:14)"
+    ],
+    "solution": true
+    }       
+]

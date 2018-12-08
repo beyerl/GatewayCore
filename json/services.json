@@ -1,0 +1,66 @@
+[
+    {"serviceName": "Service 01", "groupPrio": 1, "groupName": "Basisdienste", "serviceStatus": 1
+    },
+    {"serviceName": "Service 06", "groupPrio": 1, "groupName": "Basisdienste", "serviceStatus": 4
+    },
+    {"serviceName": "Service 11", "groupPrio": 1, "groupName": "Basisdienste", "serviceStatus": 2
+    },
+    {"serviceName": "Service 16", "groupPrio": 1, "groupName": "Basisdienste", "serviceStatus": 4
+    },
+    {"serviceName": "Service 20", "groupPrio": 1, "groupName": "Basisdienste", "serviceStatus": 3
+    },
+    {"serviceName": "Service 02", "groupPrio": 2, "groupName": "Dokumentbasiert", "serviceStatus": 4
+    },
+    {"serviceName": "Service 07", "groupPrio": 2, "groupName": "Dokumentbasiert", "serviceStatus": 3
+    },
+    {"serviceName": "Service 12", "groupPrio": 2, "groupName": "Dokumentbasiert", "serviceStatus": 4
+    },
+    {"serviceName": "Service 17", "groupPrio": 2, "groupName": "Dokumentbasiert", "serviceStatus": 4
+    },
+    {"serviceName": "Service 21", "groupPrio": 2, "groupName": "Dokumentbasiert", "serviceStatus": 4
+    },
+    {"serviceName": "Service 24", "groupPrio": 2, "groupName": "Dokumentbasiert", "serviceStatus": 3
+    },
+    {"serviceName": "Service 27", "groupPrio": 2, "groupName": "Dokumentbasiert", "serviceStatus": 4
+    },
+    {"serviceName": "Service 03", "groupPrio": 3, "groupName": "Webservice", "serviceStatus": 4
+    },
+    {"serviceName": "Service 08", "groupPrio": 3, "groupName": "Webservice", "serviceStatus": 1
+    },
+    {"serviceName": "Service 13", "groupPrio": 3, "groupName": "Webservice", "serviceStatus": 4
+    },
+    {"serviceName": "Service 18", "groupPrio": 3, "groupName": "Webservice", "serviceStatus": 4
+    },
+    {"serviceName": "Service 22", "groupPrio": 3, "groupName": "Webservice", "serviceStatus": 4
+    },
+    {"serviceName": "Service 25", "groupPrio": 3, "groupName": "Webservice", "serviceStatus": 1
+    },
+    {"serviceName": "Service 28", "groupPrio": 3, "groupName": "Webservice", "serviceStatus": 4
+    },
+    {"serviceName": "Service 30", "groupPrio": 3, "groupName": "Webservice", "serviceStatus": 4
+    },
+    {"serviceName": "Service 32", "groupPrio": 3, "groupName": "Webservice", "serviceStatus": 4
+    },
+    {"serviceName": "Service 04", "groupPrio": 4, "groupName": "Getaktet", "serviceStatus": 4
+    },
+    {"serviceName": "Service 09", "groupPrio": 4, "groupName": "Getaktet", "serviceStatus": 4
+    },
+    {"serviceName": "Service 14", "groupPrio": 4, "groupName": "Getaktet", "serviceStatus": 4
+    },
+    {"serviceName": "Service 19", "groupPrio": 4, "groupName": "Getaktet", "serviceStatus": 4
+    },
+    {"serviceName": "Service 23", "groupPrio": 4, "groupName": "Getaktet", "serviceStatus": 4
+    },
+    {"serviceName": "Service 26", "groupPrio": 4, "groupName": "Getaktet", "serviceStatus": 4
+    },
+    {"serviceName": "Service 29", "groupPrio": 4, "groupName": "Getaktet", "serviceStatus": 4
+    },
+    {"serviceName": "Service 31", "groupPrio": 4, "groupName": "Getaktet", "serviceStatus": 4
+    },
+    {"serviceName": "Service 05", "groupPrio": 5, "groupName": "Testservice", "serviceStatus": 4
+    },
+    {"serviceName": "Service 10", "groupPrio": 5, "groupName": "Testservice", "serviceStatus": 4
+    },
+    {"serviceName": "Service 15", "groupPrio": 5, "groupName": "Testservice", "serviceStatus": 4
+    }
+]

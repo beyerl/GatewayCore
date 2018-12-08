@@ -1,0 +1,34 @@
+{
+    "triggerId": "Z8019650Z00",
+    "text":  
+    [
+        {
+            "title": "Sed diam voluptua",
+            "step":
+                [ 
+                    "Sed diam voluptua. At veroeos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, nosea takimata sanctus est Lorem ipsum dolor sit amet.\n",
+                    "Tempus vitae molestie. Convallis curabitur vestibulum. Justo rutrum a. A ut arcu felis eget litora libero ligula morbi vestibulum eu tellus vel consectetur congue. Ultricies et commodo amet accumsan nunc eget mattis tincidunt nonummy donec viverra sed nec iaculis consectetuer lectus dictum. Velit iaculis a. Fusce magna egestas bibendum ultrices ante. Enim aliquam nihil. Id mauris turpis. Condimentum pellentesque urna.\n",
+                    "Sapien vestibulum non. At ut sed ligula animi nunc mauris blandit non nulla lacinia duis. Senectus ac tincidunt. Sapien commodo nulla. Pede quam sollicitudin vivamus elit porta. Etiam ut nisl vestibulum maecenas vestibulum velit suscipit porta. Mollit in pretium sollicitudin semper magna quia nibh vitae. Gravida consectetuer pede laoreet ac a non leo non tellus amet vel. Magna suspendisse vestibulum. Donec et varius lacinia pellentesque vivamus. Ultrices nec tincidunt. Sed libero nostra in tempor eu. Vitae mauris in elit aliquam dolor tempus ipsum libero. Non pellentesque erat. Duis erat condimentum."
+                ],
+            "tag":
+                [
+                    "AudioMedienobjekt konnte wegen Constraint-Verletzung nicht gespeichert werden: LB_STRM.XX_ABO_ANR",
+                    "referenzierte AK besitzt schon eine Produktion"
+                ]
+        },
+        {
+            "title": "Tempus vitae molestie",
+            "step":
+                [
+                    "Sed diam voluptua. At veroeos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, nosea takimata sanctus est Lorem ipsum dolor sit amet.\n",
+                    "Tempus vitae molestie. Convallis curabitur vestibulum. Justo rutrum a. A ut arcu felis eget litora libero ligula morbi vestibulum eu tellus vel consectetur congue. Ultricies et commodo amet accumsan nunc eget mattis tincidunt nonummy donec viverra sed nec iaculis consectetuer lectus dictum. Velit iaculis a. Fusce magna egestas bibendum ultrices ante. Enim aliquam nihil. Id mauris turpis. Condimentum pellentesque urna.\n",
+                    "Sapien vestibulum non. At ut sed ligula animi nunc mauris blandit non nulla lacinia duis. Senectus ac tincidunt. Sapien commodo nulla. Pede quam sollicitudin vivamus elit porta. Etiam ut nisl vestibulum maecenas vestibulum velit suscipit porta. Mollit in pretium sollicitudin semper magna quia nibh vitae. Gravida consectetuer pede laoreet ac a non leo non tellus amet vel. Magna suspendisse vestibulum. Donec et varius lacinia pellentesque vivamus. Ultrices nec tincidunt. Sed libero nostra in tempor eu. Vitae mauris in elit aliquam dolor tempus ipsum libero. Non pellentesque erat. Duis erat condimentum."
+                ],
+            "tag":
+                [
+                    "AudioMedienobjekt konnte wegen Constraint-Verletzung nicht gespeichert werden: LB_STRM.XX_ABO_ANR",
+                    "Stackoverflow"
+                ]
+        }
+    ]
+}

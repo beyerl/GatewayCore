@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv='content-type' content='text/html; charset=utf-8'/>
+    <link rel='stylesheet' href='fonts/open-sans.css' >
+    <link href='bootstrap/css/bootstrap.css' rel='stylesheet'>
+    <link href='bootstrap/css/bootstrap-datetimepicker.css' rel='stylesheet'>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+    <link rel="stylesheet" type='text/css' href="tablesorter/css/theme.blue.css">
+</head>
+<body>
+
+    <header id='header-wrapper' class='container-fluid navbar navbar-default navbar-fixed-top' >
+        <div nav class='gui-logo navbar-header no-hover'>
+            <img id='gui-logo-img' class='navbar-brand no-hover' src='images/BR-Logo.svg' alt='BR Logo' />
+    
+            <div id='gui-logo-text'class='navbar-brand no-hover' >
+                        <p class='gui-logo-label no-hover'>HFDB</p>
+                        <p class='gui-logo-label no-hover'>Gateway Core</p>
+                        <p class='gui-logo-label no-hover'><b>Admin</b></p>
+            </div>
+        </div>
+
+        <button id='nav-toogle-button' type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='.navigation-wrapper'>
+            <span class='sr-only'>Navigationsschalter</span>
+            <span class='glyphicon glyphicon-align-justify'></span>
+        </button>      
+
+            <nav id='navigation-wrapper' class='navigation-wrapper collapse navbar-collapse' role='navigation'>
+                
+                <div id='nav-row-one-wrapper'>
+                    <p class='plus-button'><span class='glyphicon glyphicon-edit'></span></p>
+
+
+                    <ul id='nav-row-one' class='nav navbar-nav collapse'>
+                        <li><a href='#'>Shortcut 1</a></li>
+                        <li><a href='#'>Shortcut 2</a></li>
+                        <li><a href='#'>Shortcut 3</a></li>
+                        <li><a href='#'>Shortcut 4</a></li>
+                    </ul>
+                </div>
+
+                <ul id='nav-row-two' class='nav navbar-nav collapse navbar-collapse'>
+                    <li><a href='monitor.html'>Monitor</a></li>
+                    <li><a href='wartung.html'>Wartung</a></li>
+                    <li class="selected-tab"><a href='fehler.html'>Fehler</a></li>                    
+                </ul>
+                
+                <div id='nav-login' class='nav navbar-nav navbar-right'>
+                    <li><a href='#'><div id='nav-login-usr'>Max Mustermann</div> <span class='glyphicon glyphicon-log-out'></span></a></li>
+                </div> 
+            </nav>          
+    </header>  
+
+    <main class='fehler-container'>
+        <h1 class='main-heading'>FEHLERMANAGEMENT</h1>
+        <aside id='fehler-toolbar' class='md-form'>
+
+            <label for='id-search'>ID</label>
+            <div class="fehler">
+                <input id='id-search' type="text" class="form-control search" placeholder="SAD-ID/MPX/Prod-Nr." />
+            </div>
+
+            <label for='fehler-search'>Fehlermeldung/Lösungsvorschlag</label>
+            <div class="fehler">
+                <input id='fehler-search' type="text" class="form-control search" placeholder="Volltextsuche" />
+            </div>
+                
+            <label for='von-search'>Von</label>
+            <div class='date-time-picker'>
+                <div class="form-group">
+                    <div class='fehler input-group date' id='datetimepicker1'>
+                        <input id='von-search' type='text' class="form-control" />
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <label for='bis-search'>Bis</label>
+            <div class='date-time-picker'>
+                <div class="form-group">
+                    <div class='fehler input-group date' id='datetimepicker2'>
+                        <input id='bis-search' type='text' class="form-control" />
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="status-dropdown" class="dropdown-checkbox">
+                <div class="button-group">
+                    <button type="button" class="btn btn-default btn-sm dropdown-toggle dropdown-checkbox-button" data-toggle="dropdown">Status<span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="small" data-value="erfolgreich" tabIndex="-1"><input type="checkbox" />&nbsp;Erfolgreich</a></li>
+                        <li><a href="#" class="small" data-value="Fehlerhaft - Erledigt" tabIndex="-1"><input type="checkbox" />&nbsp;Fehlerhaft - Erledigt</a></li>
+                        <li><a href="#" class="small" data-value="Fehlerhaft - Zu erledigen" tabIndex="-1"><input type="checkbox" />&nbsp;Fehlerhaft - Zu erledigen</a></li>
+                    </ul>
+                </div>                   
+            </div>
+
+            <div id="prozess-dropdown" class="dropdown-checkbox">
+                <div class="button-group">
+                    <button type="button" class="btn btn-default btn-sm dropdown-toggle dropdown-checkbox-button" data-toggle="dropdown">Prozess<span class="caret"></span></button>
+                    <ul class="dropdown-menu">                        
+                    </ul>
+                </div>                   
+            </div>
+
+            <button id='search-button' type="button" class="btn btn-default full-width"><span class="glyphicon glyphicon-search"></span> Suchen</button>
+
+            <div class="tag">
+                <ul class="search-tags tags append">                
+                </ul>
+            </div>
+        </aside>
+
+        
+        <div id='fehler-main'>
+            <table id='fehler-table' class='tablesorter-blue'>
+                <thead>
+                    <tr><th>erledigt</th><th>Datum</th><th>Uhrzeit</th><th>ID</th><th>Prozess</th><th>Fehler</th><th>Stack-Trace</th><th>Lösungen</th></tr>
+                </thead>
+                <tbody class='append'>
+                </tbody>
+            </table>
+            <div id='fehler-details'></div>
+
+            <div id='loesung-main' class='append'></div>
+        </div>
+
+
+
+    </main>
+
+    <footer class='container'></footer>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src='bootstrap/js/moment-with-locales.js'></script>
+    <script src='bootstrap/js/bootstrap.min.js?body=1'></script>
+    <script src='bootstrap/js/bootstrap-datetimepicker.js'></script>
+    <script src='js/main.js'></script>
+    <script src='js/fehler.js'></script>
+    <script type="text/javascript" src="tablesorter/js/jquery.tablesorter.combined.js"></script>
+</body>
+</html>

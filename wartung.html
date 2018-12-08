@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv='content-type' content='text/html; charset=utf-8'/>
+    <link rel='stylesheet' href='fonts/open-sans.css' >
+    <link href='bootstrap/css/bootstrap.css' rel='stylesheet'>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+</head>
+<body>
+
+    <header id='header-wrapper' class='container-fluid navbar navbar-default navbar-fixed-top' >
+        <div nav class='gui-logo navbar-header no-hover'>
+            <img id='gui-logo-img' class='navbar-brand no-hover' src='images/BR-Logo.svg' alt='BR Logo' />
+    
+            <div id='gui-logo-text'class='navbar-brand no-hover' >
+                        <p class='gui-logo-label no-hover'>HFDB</p>
+                        <p class='gui-logo-label no-hover'>Gateway Core</p>
+                        <p class='gui-logo-label no-hover'><b>Admin</b></p>
+            </div>
+        </div>
+
+        <button id='nav-toogle-button' type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='.navigation-wrapper'>
+            <span class='sr-only'>Navigationsschalter</span>
+            <span class='glyphicon glyphicon-align-justify'></span>
+        </button>      
+
+            <nav id='navigation-wrapper' class='navigation-wrapper collapse navbar-collapse' role='navigation'>
+                
+                <div id='nav-row-one-wrapper'>
+                    <p class='plus-button'><span class='glyphicon glyphicon-edit'></span></p>
+
+                    <ul id='nav-row-one' class='nav navbar-nav collapse'>
+                        <li><a href='#'>Shortcut 1</a></li>
+                        <li><a href='#'>Shortcut 2</a></li>
+                        <li><a href='#'>Shortcut 3</a></li>
+                        <li><a href='#'>Shortcut 4</a></li>
+                    </ul>
+                </div>
+
+                <ul id='nav-row-two' class='nav navbar-nav collapse navbar-collapse'>
+                    <li><a href='monitor.html'>Monitor</a></li>
+                    <li class="selected-tab"><a href='wartung.html'>Wartung</a></li>
+                    <li><a href='fehler.html'>Fehler</a></li>
+                </ul>
+                
+                <div id='nav-login' class='nav navbar-nav navbar-right'>
+                    <li><a href='#'><div id='nav-login-usr'>Max Mustermann</div> <span class='glyphicon glyphicon-log-out'></span></a></li>
+            </div> 
+            </nav>          
+    </header>  
+
+    <main class='container'>
+        <h1 class='main-heading'>WARTUNG</h1>
+        <div class='append'></div>
+        
+    </main>
+
+    <footer class='container'></footer>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src='bootstrap/js/bootstrap.min.js?body=1'></script>
+    <script src='js/main.js'></script>
+    <script src='js/wartung.js'></script>
+</body>
+</html>

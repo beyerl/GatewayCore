@@ -1,0 +1,71 @@
+[
+    {"groupName": "Group 01", 
+    "groupServices": [
+        "Service 01",
+        "Service 02",
+        "Service 03",
+        "Service 04",
+        "Service 05",
+        "Service 06",
+        "Service 07",
+        "Service 08",
+        "Service 09",
+        "Service 10",
+        "Service 11",
+        "Service 12",
+        "Service 13",
+        "Service 14",
+        "Service 15",
+        "Service 16",
+        "Service 17",
+        "Service 18",
+        "Service 19",
+        "Service 20",
+        "Service 21",
+        "Service 22",
+        "Service 23",
+        "Service 24",
+        "Service 25",
+        "Service 26",
+        "Service 27",
+        "Service 28",
+        "Service 29",
+        "Service 30",
+        "Service 31",
+        "Service 32"
+        ]
+    },
+    {"groupName": "Group 02", 
+    "groupServices": ["Service 01", 
+        "Service 26"
+        ]
+    },
+    {"groupName": "Group 03", 
+    "groupServices": ["Service 30", 
+        "Service 31",
+        "Service 32"
+        ]
+    },
+    {"groupName": "Group 04", 
+    "groupServices": ["Service 09",
+        "Service 10",
+        "Service 11",
+        "Service 12",
+        "Service 13",
+        "Service 14",
+        "Service 15",
+        "Service 16"
+        ]
+    },
+    {"groupName": "Group 05", 
+    "groupServices": ["Service 07",
+        "Service 18",
+        "Service 24"
+        ]
+    },
+    {"groupName": "Group 06", 
+    "groupServices": ["Service 07",
+        "Service 17"
+        ]
+    }
+]
